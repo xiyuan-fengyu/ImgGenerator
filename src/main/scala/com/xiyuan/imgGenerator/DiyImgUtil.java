@@ -110,7 +110,7 @@ public class DiyImgUtil {
 			info.items.add(new DiyItemChar(code.charAt(i), size, (int) (marginLeft + perCharWidth * (i + 0.5f)), centerHeight, RandomUtil.randomBetween(-30, 30), null, true));
 		}
 
-		final float pointPercent = 0.005f;
+		final float pointPercent = 0.008f;
 		int pointNum = (int) (width * height * pointPercent);
 		for (int i = 0; i < pointNum; i++) {
 			info.items.add(new DiyItemPoint(RandomUtil.randomBetween(1, 5), RandomUtil.randomBetween(5, width - 5), RandomUtil.randomBetween(5, height - 5)));
